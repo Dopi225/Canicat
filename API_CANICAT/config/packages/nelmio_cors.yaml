@@ -1,0 +1,16 @@
+nelmio_cors:
+    defaults:
+        allow_origin: ['https://canicat.simacogroup.com'] # Autorise le frontend React
+        allow_credentials: true # Permet d'envoyer des cookies et les credentials
+        allow_headers: ['Content-Type', 'Authorization'] # Autorise les headers importants
+        expose_headers: ['Content-Length', 'Content-Disposition'] # Facultatif
+        allow_methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+        max_age: 3600
+
+    paths:
+        '^/': # Applique cette configuration à toutes les routes
+            allow_origin: ['https://canicat.simacogroup.com']
+            allow_credentials: true
+            allow_headers: ['Content-Type', 'Authorization']
+            allow_methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+

@@ -1,0 +1,5 @@
+les refetch sur chaque action de la page
+
+gerer proprio lors de l'ajout d'occupation a l'entree(le formulaire d'ajout de compta perd l'id proprio au bout du deuxieme ajout)
+
+ajouter vraiment le paiement au depart (marche pas) 
