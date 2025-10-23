@@ -22,3 +22,75 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# ===========================================
+# DONNÉES SENSIBLES - NE JAMAIS COMMITER
+# ===========================================
+
+# Fichiers d'authentification et de sécurité
+.htpasswd
+.htaccess
+*.htpasswd
+*.htaccess
+
+# Variables d'environnement et configuration sensible
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+.env.test
+*.env
+config.json
+secrets.json
+credentials.json
+
+# Fichiers de base de données
+*.db
+*.sqlite
+*.sqlite3
+database.json
+data.json
+
+# Fichiers de sauvegarde et temporaires
+*.bak
+*.backup
+*.tmp
+*.temp
+backup/
+backups/
+
+# Fichiers de logs sensibles
+error.log
+access.log
+*.log
+
+# Certificats et clés
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+ssl/
+certs/
+
+# Fichiers de configuration serveur
+apache.conf
+nginx.conf
+*.conf
+
+# Fichiers de cache et sessions
+cache/
+sessions/
+*.session
+
+# Fichiers de données utilisateur
+uploads/
+user_data/
+private/
+
+# Fichiers de configuration locale
+local.config.js
+local.config.json
+dev.config.js
+dev.config.json

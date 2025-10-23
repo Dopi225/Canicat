@@ -8,3 +8,113 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+# Fichiers de configuration sensibles
+.env
+.env.prod
+.env.staging
+.env.test
+.env.dev
+config/secrets/
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# Logs et fichiers de débogage
+*.log
+logs/
+log/
+var/log/
+var/cache/
+var/sessions/
+var/tmp/
+tmp/
+temp/
+
+# Fichiers de base de données
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+database.sql
+dump.sql
+backup.sql
+*.sql.gz
+*.dump
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+backup/
+backups/
+
+# Fichiers temporaires et cache
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers IDE et éditeurs
+.vscode/
+.idea/
+*.sublime-*
+.atom/
+.brackets.json
+.netrwhist
+.project
+.settings/
+.classpath
+
+# Fichiers système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Fichiers de déploiement et production
+deploy/
+deployment/
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Fichiers de test et couverture
+coverage/
+.nyc_output/
+*.lcov
+phpunit.xml
+.phpunit.result.cache
+
+# Fichiers de dépendances
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de compilation
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Fichiers de configuration locale
+local.php
+local_config.php
+config.local.php
